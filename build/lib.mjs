@@ -178,7 +178,7 @@ export function page({ file, title, desc, key, body, swiper = false, ogImage, bo
 <link rel="preconnect" href="https://images.unsplash.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${v}lenis.css">${swiper ? `\n<link rel="stylesheet" href="${v}swiper-bundle.min.css">` : ""}
-<link rel="stylesheet" href="${root}dist/output.css">
+<link rel="stylesheet" href="${root}output.css">
 <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__fsReady)document.documentElement.classList.add("reveal-failsafe")},5000);</script>
 </head>
 <body data-page="${key}" class="${bodyClass}">
